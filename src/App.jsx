@@ -5,7 +5,16 @@ function App() {
   const [data] = useFetch("https://jsonplaceholder.typicode.com/posts");
 
   return (
-    <>{data && data.map((item) => <div key={item.id}>{item.title}</div>)}</>
+    <>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+      {data && data.map((item) => <div key={item.id}>{item.title}</div>)}
+    </>
   );
 }
 
