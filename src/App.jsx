@@ -8,7 +8,7 @@ function App() {
     <>
       <nav>
         <ul>
-          <li>Home</li>
+          <li>Home 2</li>
           <li>About</li>
           <li>Contact</li>
         </ul>
